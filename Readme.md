@@ -10,11 +10,11 @@ Instructions
 * Update the file TwitterKafkaConnect.Properties with twitter keys, keyword to track and kafka topic name.
 * Start kafka server if using standalone, first two steps in https://kafka.apache.org/quickstart
 * Compile TwitterKafkaConnect
-    * Goto the directory
+    * Goto the source directory
     * sbt
     * assembly
 * Goto Kafka directory. 
-* Run "Export CLASSPATH=/<pathToTwitterConnectTarget>"
+* Run "Export CLASSPATH=/pathToTwitterConnectTarget"
 * Run "bin/connect-standalone.sh config/connect-standalone.properties TwitterKafkaConnect.properties"
 
 It will send all tweets to kafka topic as long as it is running.
