@@ -1,3 +1,4 @@
+**Deprecated:** This is not maintained. The twitter sdk used here has been deprecated.
 Simple Kafka connect classes in scala for loading twitter stream to kafka topic.
 
 Kafka connect overview is here https://kafka.apache.org/documentation#connect
